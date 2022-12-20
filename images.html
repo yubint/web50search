@@ -10,20 +10,19 @@
 
 <body>
     <div class="navigator">
-        <a href="images.html">Image Search</a>
-        <a href="advancedsearch.html">Advanced Search</a>
+        <a href="index.html">Search</a>
     </div>
     <div class="maindiv">
         <div class="main-heading">
-            <img src="google.png" alt="Google">
+            <img src="googleimages.png" alt="Google Images">
         </div>
         <form action="https://google.com/search">
             <div>
                 <input class="text-form" type="text" name="q" autocapitalize="off" autocomplete="off">
+                <input type="text" name="tbm" value="isch" hidden>
             </div>
             <div class="search-buttons">
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                <input type="submit" value="Search">
             </div>
         </form>
     </div>

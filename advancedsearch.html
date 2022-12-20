@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="advancedsearch.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="googlelogo">
+            Google
+        </div>
+        <div class="navigator">
+            <a href="index.html">Search</a>
+        </div>
+    </div>
+    <main>
+        <div class="advancedheading">
+            Advanced Search
+        </div>
+        <div class="hr"></div>
+        <div class="input">
+            Find Pages With ...
+            <form action="https://www.google.com/search">
+                <table>
+                    <tr>
+                        <td class="input-label">all these words:</td>
+                        <td>
+                            <input class="single-input" type="text" name="as_q" id="as_q" autocapitalize="off"
+                                autocomplete="off">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="input-label">this exact word or phrase:</td>
+                        <td>
+                            <input class="single-input" type="text" name="as_epq" id="as_epq" autocapitalize="off"
+                                autocomplete="off">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="input-label">any of these words:</td>
+                        <td>
+                            <input class="single-input" type="text" name="as_oq" id="as_oq" autocapitalize="off"
+                                autocomplete="off">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="input-label">none of these words:</td>
+                        <td>
+                            <input class="single-input" type="text" name="as_eq" id="as_eq" autocapitalize="off"
+                                autocomplete="off">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="input-label">numbers ranging from:</td>
+                        <td class="flex-container">
+                            <input type="text" name="as_nlo" id="as_nlo" autocapitalize="off" autocomplete="off">
+                            <div>to</div>
+                            <input type="text" name="as_nhi" id="as_nhi" autocapitalize="off" autocomplete="off">
+                        </td>
+                    </tr>
+                </table>
+                <div class="form-submit-relative-div">
+                    <input class="form-submit-absolute" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
